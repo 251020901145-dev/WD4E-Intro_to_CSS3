@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16PX;
+}
+header {
+    background-color: #4caf50;
+}
+nav {
+    background-color: #2e7d32;
+    display: block;
+    width: 100%;
+}
+main {
+    background-color: #f5f5f5;
+    font-size: 18px;
+}
+footer {
+    background-color: #4caf50;
+}
+li {
+    display: inline-block;
+    width: 120px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Georgia',serif;
+    color: white;
+}
+p {
+    line-height: 1.6;
+}
+/* kinh hoat luoi 2 cot*/
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;/* chia deu lam 2 cot*/
+    justify-content: space-around;/*Can deu khoang cach*/
+    align-items: center;/*Can giua theo chieu doc*/
+    row-gap: 20px;/*Khoang cach giua cac hang*/
+}
+/* Dam bao cac khoi section con ben trong grid tu co gian khit cot 40%*/
+.grid img {
+    width: 100%;
+}
+.grid section {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header img {
+    width: 200px;
+}
